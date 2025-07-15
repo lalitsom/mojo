@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Lalit Som <lalit.som@juspay.in>"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+name = "mojo"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+modular = ">=25.5.0.dev2025071505,<26"
