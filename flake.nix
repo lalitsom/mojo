@@ -11,7 +11,7 @@
         pandas
         scipy
         scikit-learn
-        # pytorch-bin or pytorch, if needed
+        torch
       ]);
     in pkgs.mkShell {
       buildInputs = [
@@ -20,7 +20,7 @@
       ];
 
       shellHook = ''
-        echo "Python 3.11 with basic libraries and pixi for mojo is ready..."
+        echo "Python 3.12 with basic libraries and pixi for mojo is ready..."
       '';
     };
   };
